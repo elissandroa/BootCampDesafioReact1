@@ -1,0 +1,139 @@
+.git-hub-perfil-container{
+    width: 1251px;
+    height:390px;
+    margin-top: 40px;
+    margin-right: 90px;
+    margin-left: 100px;
+    background: #E6F7FF;
+    border-radius: 16px;
+    background: #F5F5F5;
+ }
+
+.git-hub-perfil-foto{
+    width: 284px;
+    height: 288px;
+    margin-left: 30px;
+    margin-right: 54px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.git-hub-perfil-dados{
+    width: 846px;
+    height: 253px;
+    margin-top:58px;
+    margin-right: 43px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    clear: right;
+    margin-left:-465px;
+}
+
+.git-hub-button-perfil{
+    width: 101px;
+    height: 40px;
+    left: 30px;
+    margin-top: 11px;
+   
+}
+
+.git-hub-button-perfil-text{
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.git-hub-box-align{
+    display:flex;
+}
+
+.git-hub-dados-align{
+    display:block;
+}
+
+.box-repositorios-info{
+    margin-top:23px;
+    width: 183px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-Size:12px; 
+    line-height: 20px;
+    padding: 1px 14px 1px 14px;
+    margin-right: 10px;
+}
+
+.box-seguidores-info{
+    margin-top:23px;
+    width: 138px;
+    height: 22px;
+    left: 171px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-Size:12px; 
+    line-height: 20px;
+    padding: 1px 18px 1px 14px;
+    margin-right: 10px;
+}
+
+.box-seguindo-info{
+    margin-top:23px;
+    width: 125px;
+    height: 22px;
+    left: 297px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-Size:12px; 
+    line-height: 20px;
+    padding: 1px 18px 1px 14px;
+    
+}
+
+.informacoes-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #1890FF;
+    margin-left: 14px;
+    margin-top: 8px;
+}
+
+.informacoes-box{
+    width: 815px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    margin-left: 14px;
+
+}
+
+.informacoes-text{
+    height: 24px;
+    left: 10px;
+    right: 34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #737373;
+    padding: 20px 34px 20px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

@@ -1,8 +1,18 @@
-import ButtonApp from 'core/components/ButtonApp';
 import React from 'react';
 import './styles.scss';
-
-const Home = () => (
+import { useHistory } from 'react-router-dom';
+const Home = () => {
+    
+    const history = useHistory();
+    
+    const handleSearch = () => {
+        localStorage.removeItem('userGit');
+        localStorage.setItem('userGit', "");
+        history.push("/before");
+    }
+    
+    
+    return (
     <div className="home-container">
         <h1 className="home-title">
             Desafio do Capítulo 3, Bootcamp DevSuperior
@@ -16,11 +26,13 @@ const Home = () => (
             Mateusz Wierzbicki: antforfigma@gmail.com
             </p>
         </div>
-        <div className="home-button-container home-button-text">
-            <ButtonApp text="Começar"/>
-        </div>
-    </div>
+          <div className="home-button-container home-button-text"onClick={handleSearch}>
+                <button className="btn btn-primary button-home">
+                    Começar
+                </button>
+            </div>
+      </div>
 
 );
-
+}
 export default Home;

@@ -2,7 +2,7 @@
     width: 580px;
     height: 128px;
     left: 120px;
-    top: 179px;
+    top: 50px;
     margin-left: 120px;
     margin-top: 120px;
 }
@@ -30,6 +30,21 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 36px;
-    color: #5A6774;     
+    color: #5A6774;   
 }
 
+a {
+    &:hover {
+      text-decoration: none;
+      color: unset;
+    }
+  }
+  .button-home{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
